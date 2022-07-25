@@ -11,7 +11,8 @@ IDENTIFICATION DIVISION.
                         10 DISPLAY-FIELD  PIC X(20).
        PROCEDURE DIVISION.
            INITIALIZE PROGRAM-WORKING-FIELDS.
-           MOVE "test Norwegian character like Å, Ø, and Æ " TO DISPLAY-FIELD.
+           MOVE "test Norwegian character like Å, Ø, and Æ "
+           TO DISPLAY-FIELD.
            DISPLAY DISPLAY-FIELD.
            GOBACK.
 
