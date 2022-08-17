@@ -3,7 +3,6 @@
        ENVIRONMENT DIVISION.
        CONFIGURATION SECTION.
       *ありがとうございます
-      * ｿ
        DATA DIVISION.
        WORKING-STORAGE SECTION.
        77  AA PIC X VALUE "ｿ".
