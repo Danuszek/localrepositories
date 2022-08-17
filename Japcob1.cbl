@@ -2,7 +2,7 @@
        PROGRAM-ID.  JAPCOB1.
        ENVIRONMENT DIVISION.
        CONFIGURATION SECTION.
-       77  AA PIC X VALUE "ｿ".
+      * 77  AA PIC X VALUE "ｿ".
       *ありがとうございます
       * ｿ
        DATA DIVISION.
