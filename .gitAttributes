@@ -7,7 +7,7 @@
 #*.cpy zos-working-tree-encoding=ibm-930 git-encoding=UTF-8
 #*.cbl zos-working-tree-encoding=ibm-930  git-encoding=UTF-8
 #*.cpy zos-working-tree-encoding=ibm-277 git-encoding=UTF-8
-#*.cbl zos-working-tree-encoding=ibm-1142  git-encoding=IBM-277
+*.cbl zos-working-tree-encoding=ibm-277 git-encoding=UTF-8
 *.bms zos-working-tree-encoding=ibm-1047 git-encoding=utf-8
 *.pli zos-working-tree-encoding=ibm-1047 git-encoding=utf-8
 *.mfs zos-working-tree-encoding=ibm-1047 git-encoding=utf-8
