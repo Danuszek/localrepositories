@@ -1,0 +1,18 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID.  CPCONVER.
+      *This pgm tests the conversion of character "¬" when a DBB build is done.
+       ENVIRONMENT DIVISION.
+       CONFIGURATION SECTION.
+      *SOURCE-COMPUTER. IBM-370 WITH DEBUGGING MODE.
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01 PROGRAM-WORKING-FIELDS.
+           10 DISPLAY-FIELD  PIC X(1) VALUE "¬".
+       PROCEDURE DIVISION.
+           IF DISPLAY-FIELD OF PROGRAM-WORKING-FIELDS NOT EQUAL "¬"
+           THEN.
+             MOVE "A" TO DISPLAY-FIELD.
+           DISPLAY DISPLAY-FIELD.
+           GOBACK.
+
+       END PROGRAM 'CPCONVER'.
