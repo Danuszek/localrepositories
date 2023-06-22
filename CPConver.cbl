@@ -1,6 +1,7 @@
        IDENTIFICATION DIVISION.
        PROGRAM-ID.  CPCONVER.
-      *This pgm tests the conversion of character "¬" when a DBB build is done.
+      *This pgm tests the conversion of character "¬" when 
+      *a DBB build is done.
        ENVIRONMENT DIVISION.
        CONFIGURATION SECTION.
       *SOURCE-COMPUTER. IBM-370 WITH DEBUGGING MODE.
