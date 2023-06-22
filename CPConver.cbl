@@ -11,7 +11,7 @@
            10 DISPLAY-FIELD  PIC X(1) VALUE "¬".
        PROCEDURE DIVISION.
            IF DISPLAY-FIELD OF PROGRAM-WORKING-FIELDS NOT EQUAL "¬"
-           THEN.
+           THEN
              MOVE "A" TO DISPLAY-FIELD.
            DISPLAY DISPLAY-FIELD.
            GOBACK.
