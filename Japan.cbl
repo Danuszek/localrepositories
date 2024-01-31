@@ -1,6 +1,7 @@
        IDENTIFICATION DIVISION.
        PROGRAM-ID.  COHELLO.
-
+558700*④②で算出した年月日から③まで算出した年月日までの期間
+558800*　　　　　　　　　　　　　　　　　　　＞　1年0月0日　の場合
        ENVIRONMENT DIVISION.
        CONFIGURATION SECTION.
       *SOURCE-COMPUTER. IBM-370 WITH DEBUGGING MODE.
